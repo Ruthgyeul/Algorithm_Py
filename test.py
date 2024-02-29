@@ -5,4 +5,4 @@ for i in range(a):
     n = n + i + 1
     print(n)
 
-print(n)
+print(a, n)
