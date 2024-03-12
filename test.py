@@ -1,4 +1,4 @@
-a = int(input()) # 3
+a = int(input())
 n = 0
 
 for i in range(a):

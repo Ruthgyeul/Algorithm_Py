@@ -1,0 +1,2 @@
+aln = input()
+print(aln+"??!")
