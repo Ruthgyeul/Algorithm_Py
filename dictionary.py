@@ -1,11 +1,9 @@
 def check(n):
     if n.isdigit() and int(n) > 0:
-        n = int(n)
-        return n
+        return int(n)
     else:
         print("You should input a natural number for N.")
-        n = input("Please input N: ")
-        return check(n)
+        return check(input("Please input N: "))
 
 def cal(nList, start, end):
     if start == end:
