@@ -9,12 +9,13 @@ def cal(nList, start, end):
     if start == end:
         result = ""
         for num in nList:
-            result += str(num)
+            result += str(num) + " "
         print(result)
     else:
         for i in range(start, end + 1):
             nList[start], nList[i] = nList[i], nList[start]
             cal(nList, start + 1, end)
+        nList[start], nList[i] = nList[i], nList[start]
 
 n = check(input("Please input N: "))
 
