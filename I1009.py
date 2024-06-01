@@ -1,9 +1,13 @@
-test = int(input())
-results = []
+import sys
 
-for _ in range(test):
-    num1, num2 = map(int, input().split())
-    results.append((num1 ** num2) % 10)
+n = int(sys.stdin.readline().strip())
+result = []
 
-for result in results:
-    print(result)
+for _ in range(n):
+    a, b = map(int, sys.stdin.readline().strip().split())
+
+    data = pow(a, b)
+    result.append(data%10)
+    
+for ele in result:
+    print(ele)
