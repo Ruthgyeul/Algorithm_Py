@@ -1,4 +1,7 @@
-.DS_Store
+# Test files
+./test/*
 test.py
 test.txt
-./test/*
+
+# Misc
+.DS_Store
